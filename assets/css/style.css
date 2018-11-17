@@ -4,14 +4,53 @@
 }
 
 body {
-    background-image: url("/assets/images/background.png");
+    background-image: url(../images/background.png);
+    text-align: center;
 }
 
-h1 {
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.name {
+p {
+    text-align: left;
+    width: 750px;
+    line-height: 25px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #666666;  
+    
+}
+
+#name {
     background-color: #4aaaa5;
     color: white;
+}
+
+#Bio-title {
+    color: #4aaaa5;
+}
+
+#About-photo {
+    width:200px;
+    height:200px;
+    float: left
+}
+
+#About-photo, p, {
+
+}
+
+.content {
+    border-color:#dddddd;
+    width: 960px;
+    background-color: #ffffff;
 }
