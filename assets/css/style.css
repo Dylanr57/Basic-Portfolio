@@ -1,56 +1,62 @@
-* {
+body {
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/background.png);
     color: #777777;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
 }
 
-body {
-    background-image: url(../images/background.png);
-    text-align: center;
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
 header {
     background-color: #ffffff;
-    border-color: #cccccc;
+    border: #cccccc 2px solid;
+    overflow-y: auto;
 }
 
-h1, h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#Name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    width: 25%;
 }
 
-p {
-    text-align: left;
-    width: 750px;
-    line-height: 25px;
+.Top {
+    width: 960px;
+    margin: auto;
+}
+
+#Navigation {
+    float: right;
+}
+
+.Content {
+    width: 960px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
 }
 
 footer {
     position: fixed;
     bottom: 0;
-    background-color: #666666;  
-    
+    margin: 0;
+    background-color: #666666;
+    color: #ffffff;
+    width: 100%;
+    padding: 15px 0 0 0;
+    border-top: #4aaaa5 2px solid;
 }
 
-#name {
-    background-color: #4aaaa5;
-    color: white;
-}
-
-#Bio-title {
+#Title {
+    text-align: left;
     color: #4aaaa5;
+    margin: 5px auto 5px 5px;
 }
 
-#About-photo {
-    width:200px;
-    height:200px;
-    float: left
-}
-
-#About-photo, p, {
-
-}
-
-.content {
-    border-color:#dddddd;
-    width: 960px;
-    background-color: #ffffff;
+#Photo {
+    float: left;
 }
