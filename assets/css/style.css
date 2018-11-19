@@ -11,6 +11,12 @@ h1, h2 {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
+a {
+    color: #777777;
+    text-decoration: none;
+    margin: 0 2px;
+}
+
 header {
     background-color: #ffffff;
     border: #cccccc 2px solid;
@@ -31,6 +37,7 @@ header {
 
 #Navigation {
     float: right;
+    margin: 23px 0;
 }
 
 .Content {
